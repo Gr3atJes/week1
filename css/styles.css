@@ -1,3 +1,10 @@
+.img-container {
+  text-align: center;
+  display:block;
+}
+.content .text {
+  text-align:center;
+}
 * {
   box-sizing: border-box;
 }
