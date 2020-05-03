@@ -1,18 +1,18 @@
-.container1 {
-  position: relative;
-  text-align: center;
-  color:white;
+* {
+  box-sizing: border-box;
 }
-.centered {
-  position: absolute;
-  top:50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.column {
+  float:left;
+  width:33.33%;
+  padding:10px;
 }
-.text{
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.row:after {
+  content: "";
+  display: table;
+  clear:  both;
 }
+
+
 .container {
   width: 100vw;
   height: 100vh;
@@ -112,6 +112,6 @@
     font-size: 12px;
 }
 .card:hover {
-    transform: scale(1.2);
+    transform: scale(0.8);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0, 6);
 }
