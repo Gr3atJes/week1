@@ -1,4 +1,15 @@
-body {
+.container1 {
+  position: relative;
+  text-align: center;
+  color:white;
+}
+.centered {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -6,6 +17,27 @@ body {
   justify-content: center;
   background: url("background.jpg");
   overflow: hidden;
+}
+.content-wrapper {
+    width:80%;
+    margin:4%, 10%, 5%, 10%;
+
+}
+.content-wrapper img {
+    width:100%;
+}
+
+.text-wrapper{
+    width:100%;
+    position: relative;
+    margin-top:-40%;
+}
+.text-wrapper h1{
+    text-align: center;
+    color:#ffffff;
+    font-size:10vw;
+    font-family:'lobster', cursive;
+
 }
 .card {
   display: grid;
