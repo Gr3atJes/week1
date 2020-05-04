@@ -1,3 +1,22 @@
+.v1 {
+  border-left: 6px solid green;
+  height:300px;
+  position:absolute;
+  left: 30%;
+  margin-left: -3px;
+}
+.v2 {
+  border-right: 6px solid green;
+  height:300px;
+  position:absolute;
+  left: 65%;
+  margin-left: -3px;
+
+}
+.column {
+  border-radius: 0ex;
+  border-inline-color: red;
+}
 .img-container {
   text-align: center;
   display:block;
